@@ -4,7 +4,7 @@ class Persona:
         self.nombre = "Juan"
         print ("Se ha creado a", self.nombre, "de", self.edad)
     
-    def hablar(self, palabras = "No sé qué decir"): #método para que Juan "hable"
+    def hablar(self, palabras = "Frase #1"): #método para que Juan "hable"
         print (self.nombre, ":", palabras)
 
 juan = Persona()                       #Clase persona definida en la variable juan y método "self"
