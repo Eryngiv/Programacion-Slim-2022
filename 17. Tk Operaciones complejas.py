@@ -33,6 +33,7 @@ mensaje3 = "Farenheit"
 mensaje4 = "Convertir ahora"
 mensaje5 = "Caleidoscopios de cascabel"
 #mensaje6 = "Cric-trec-crac"
+#colocar frases inusuales permite desarticular el lenguaje entre inputs y resultados
 
 title = "Deep thoughts"
 
