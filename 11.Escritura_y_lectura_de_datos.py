@@ -1,4 +1,6 @@
 #Escritura y lectura de datos, usando "w" y "r"
+#Ejercicio poético:
+
 
 with open("11.Archivo.txt", 'w') as file: #¡Cuidado!, "w" sobrescribe. Para evitarlo, usar "x" o en su defecto "a".
     file.write("Soy un texto. Y voy mutando.")
