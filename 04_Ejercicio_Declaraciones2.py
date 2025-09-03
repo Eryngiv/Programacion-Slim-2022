@@ -1,13 +1,13 @@
 pregunta = str(input("¿Trabajas desde casa? (si/no): "))
 
 if pregunta == "si":
-    print("Cool!")
+    print("Bien")
 
 if pregunta == "no":
-    print("Está cool, sin embargo, vamos a hablar del traslado")
+    print("Tiempo de traslado")
 
     tiempo = input("¿Cuánto tiempo dura tu trayecto al trabajo: introduce la cantidad de minutos en número: " )
     if tiempo == "0":
-        print("¿En serio? Teletransportación XD")
+        print("Introduce otro número diferente de cero")
     else :
         print("Recuerda tener todo listo con 15 min de anticipación. Prevee retrasos o tráfico")
